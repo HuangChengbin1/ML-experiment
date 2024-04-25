@@ -10,6 +10,14 @@ class BayesClassifier:
         self.parameters = None
 
     def naive_bayes_classifier(self, train_data, test_data):
+        """
+        naive bayes classifier
+        
+        :param train_data:  train data
+        :param test_data:   test data
+        :return:    test data with predict result
+        """
+        
         labels = train_data.iloc[:, -1].value_counts().index    # type of labels
         mean = []   # mean for per class
         var = []    # variance for per class
