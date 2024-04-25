@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-filepath = "D:\\机器学习\\实验\\实验6\\ch07+ch08\\ch07研讨+实验\\data.txt"
+filepath = "dataset\\data.txt"
 sep = '\t'
 
 data = pd.read_csv(filepath, sep=sep, header=None)
