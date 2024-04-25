@@ -3,7 +3,7 @@ from DecisionTree import DecisionTree
 from mapping import mapping
 
 t = DecisionTree()  # 创建决策树模型实例
-t.load_data("D:\\机器学习\\实验\\实验3\\34章研讨+实验\\隐形眼镜数据集\\lenses_data.txt")    # 加载数据集
+t.load_data("dataset\\lenses_data.txt")    # 加载数据集
 data = t.data
 data = data.reset_index(drop=True)  # 重置索引列
 print(data)
