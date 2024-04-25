@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Perceptron import Perceptron
 
-file_path = "D:\\机器学习\\实验\\实验4\\ch05研讨+实验\\感知机数据集\\perceptron_data.txt"
+file_path = "dataset\\perceptron_data.txt"
 sep = '\t'
 
 data = pd.read_csv(file_path, sep=sep, header=None)
