@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from SVM import SVM
 
-filepath = "D:\\机器学习\\实验\\实验5\\ch06研讨+实验\\dataset.txt"
+filepath = "dataset\\dataset.txt"
 sep = '\t'
 data = pd.read_csv(filepath, sep=sep, header=None)
 
