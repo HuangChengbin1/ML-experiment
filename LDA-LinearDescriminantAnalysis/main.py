@@ -5,7 +5,7 @@ import pandas as pd
 from LinearDiscriminantAnalysis import LinearDiscriminantAnalysis as LDA
 
 #读取数据
-data = pd.read_csv("D:\\机器学习\\实验\\实验2\\输血服务中心数据集\\blood_data.txt", sep=',', header=None)
+data = pd.read_csv("dataset\\blood_data.txt", sep=',', header=None)
 data.columns = ['Recency', 'Frequency', 'Monetary', 'Time', 'BD']
 print(data)
 
